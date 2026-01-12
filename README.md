@@ -7,8 +7,7 @@
 ---
 
 ## URL
-- Frontend: https://xxxx.cloudfront.net
-- GitHub: https://github.com/xxxx/xxxx
+- GitHub: https://github.com/ryotakiyama216/technical-blog-portfolio
 
 ---
 
@@ -17,26 +16,31 @@
 - Next.js（App Router）
 - Tailwind CSS
 
-### バックエンド
+### バックエンド ※予定
 - AWS Lambda（Python）
 - API Gateway
 
 ### インフラ
 - S3
 - CloudFront
+- Route53
 
 ### データベース
 - DynamoDB
+- S3 ※画像管理
 
 ### その他
 - Git / GitHub
-- Docker（ローカル開発）
+- Cursor
+- CodeRabbit
+- Notion
 
 ---
 
 ## 主な機能
 - 記事一覧表示
-- 記事詳細表示
+- 記事詳細表示(Markdown)
+- 記事投稿・編集・削除
 - 記事投稿・編集・削除（管理者）
 - タグ検索
 - Markdown対応
@@ -69,7 +73,7 @@
 ---
 
 ## 今後の改善予定
-- 認証機能（Firebase Auth）
+- 認証機能 (Cognito)
 - コメント機能
 - 下書き機能
 - ページネーション最適化
