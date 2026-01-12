@@ -1,5 +1,4 @@
 # technical-blog-portfolio
-# Tech Blog Platform
 
 ## 概要
 エンジニア向けの技術記事を投稿・閲覧できるブログプラットフォームです。  
@@ -80,7 +79,11 @@
 
 ## セットアップ方法
 ```bash
-git clone https://github.com/xxxx/xxxx.git
-cd xxxx
-npm install
+git clone git@github.com:ryotakiyama216/technical-blog-portfolio.git
+cd teck-blog
+node -v
+nvm use 20
+node -v
+npx create-next-app@latest tech-blog
+cd tech-blog
 npm run dev
